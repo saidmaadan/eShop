@@ -1,0 +1,22 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString
+  description: MyText
+  price: 9.99
+  image_url: MyString
+
+two:
+  title: MyString
+  description: MyText
+  price: 9.99
+  image_url: MyString
+
+#START:ruby
+
+ruby:
+	title: Rube Web App
+	description: Ruby is a dynamic object-oriented generl purpose programming language
+	price: 57.99
+	image_url: ghost.jpeg
+#END:ruby
