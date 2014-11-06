@@ -10,11 +10,12 @@
 <div id="banner">
 <%= image_tag("logo.png") %>
 <%= @page_title || 'Price-Deal' %>
+<span><%= pluralize session[:counter], 'time' %></span>
 </div>
 <div id="columns">
 <div id='side'>
 <ul>
-<li><a href='http://www...'>Home</a></li>
+<li><a href='http://10.10.10.10:3000/'>Home</a></li>
 <li><a href='http://www.../faq'>Faq</a></li>
 <li><a href='http://www.../news'>News</a></li>
 <li><a href='http://www.../contact'>Contact</a></li>
